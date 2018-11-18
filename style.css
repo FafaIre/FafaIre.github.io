@@ -1,0 +1,300 @@
+charset utf-8
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	background: #f2f0eb;
+	font: 16px Helvetica, Arial, Sans-Serif; 
+	color: #636363; 
+	line-height: 24px;
+}
+
+#wrapper {
+background: url(images/background.png) repeat-y center;
+padding:0;
+margin:0;
+height: 100%;
+}
+
+#head-wrapper {
+background: url(images/head2.png) repeat-x center ;
+height: 100%;
+z-index: 9999;
+padding-top: 20px;
+padding-bottom: 10px;
+position: relative;
+left: 0;
+width: 100%;
+}
+
+
+/*Header frame size + header background*/
+#header-frame {
+	width: 960px; 
+	margin: 0 auto 0 auto;
+	background:url(images/Ribbon1.png) no-repeat center bottom;
+	height:160px;
+}
+
+
+/*Header, title, full width, not boxed*/
+#head-wrapper h1 {
+	font-style: normal;
+	font-family: 'Cormorant SC', antic-didone, sans-serif;
+	font-size: 35px;
+	color:#FFF;
+	margin-top: -10px;
+	margin-left: 10px;
+	letter-spacing: 6px;
+	text-align: center;
+}
+
+#frame{
+	width: 960px; 
+	margin: 0 auto 0 auto;
+	height: 200px;
+    max-width: 980px;
+	position:relative;
+	display:block;
+}	
+
+#frame #Header .content {
+    float: left;
+    width: 100%;
+}
+
+img{
+	border:none;
+	width:125px;	
+}
+
+#Logo a {
+	display:block;
+    max-width: 125px;
+    margin: 20px auto 0 410px;
+}
+
+/*Navigation bar, boxed*/
+#navig {
+	float: left;
+	width: 100%;
+}
+
+/*Text style of the nav bar*/
+#navig ul {
+	float: left;
+	padding: 0;
+	list-style-type: none;
+	display:block;
+	width: 900px; 
+	overflow: hidden; 
+	margin: -68px 0 auto 40px;
+}
+
+#navig li {
+    list-style-type: none;
+    float: left;
+    z-index: 9999;
+    cursor: pointer;
+	width: 130px; 
+	height: 40px; 
+	float: left; 
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+
+/*First element of nav*/
+#navig li.first a {
+    padding-left: 0;
+	margin: auto auto auto 13px;
+}
+
+#navig li.second a {
+    margin: auto auto auto 25px;
+}
+
+#navig li.third a {
+    margin: auto auto auto 14px;
+}
+
+#navig li a {
+	float: left;
+	position: relative;
+	font-size: 17px;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-family: 'Quicksand', Arial, Verdana, sans-serif;
+	text-shadow: 1px 1px 1px #bbb;
+	outline-style: none;
+    color: #594D49;
+}
+
+/*Colour on hovering menu items*/
+#navig ul li a:hover {
+	color: #a12121;
+}
+
+
+/*First element of right side of logo position*/
+#navig li.split {
+    margin-left: 110px;
+    transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+
+/*Banniere*/
+
+#banniere_image {
+	margin: 40px auto 25px auto;
+	height: 400px;
+	width: 750px;
+	background: url('images/chateaucarousel.png') no-repeat center;
+	background-color:white;
+	background-size: 750px 400px;
+	position: relative;
+	border: 1px solid #CCC;
+	color: black;
+	padding: 14px;
+}
+
+/*Banniere description*/
+#banniere_description
+{
+position: relative;
+border-radius: 0px 0px 5px 5px;
+width: 735px;
+height: 53px;
+margin: -25px auto 0 auto;
+padding-top: 19px;
+padding-left: 15px;
+color: black;
+font-size: 1.1em;
+line-height: 1.5;
+font-family:'Quicksand', Arial, Verdana, sans-serif;
+}
+
+#newsbutton
+{
+	position: relative;
+	margin: -15px auto auto 950px;
+}
+
+.button
+{
+position: relative;
+margin: auto auto 50px 60px;
+background-color:#99CC67;
+font-size: 20px;
+text-align: center;
+padding: 10px 24px;
+color: white;
+text-decoration: none;
+cursor: pointer;
+font-family:'Cormorant SC', antic-didone, sans-serif;
+border-radius: 3px;
+}
+
+.button:hover {
+	background-color:#46711B;
+	text-decoration: none;
+	color:white;
+}
+
+
+/*Body background and box*/
+#body-container {
+	width: 960px;
+	height: 1040px; 
+	margin: auto;
+}
+
+/*Title middle*/
+#medpar {
+	float:center;
+	position:relative;
+	margin-top: -5px;
+}
+
+#medpar h3 {
+	text-align: center;
+	font-style: normal;
+	font-size: 40px;
+	font-family: 'Cormorant', sans-serif;
+	font-weight: 500;
+}
+
+
+/* Left paragraph */
+#leftpar {
+	float:left;
+	position:relative;
+	margin-left: 500px ;
+	margin-top: 70px;
+	border: 1px solid #CCC;
+	padding: 15px;
+	width: 400px;
+}
+
+#leftpar p {
+	text-align: justify;
+	font-style: normal;
+	font-size: 18px;
+	font-family: 'Cormorant', sans-serif;
+	
+}
+
+/* Right paragraph */
+#rightpar {
+	float:right;
+	position: relative;
+	margin-right: 470px ;
+	margin-top: 90px;
+}
+
+#rightpar p {
+	text-align: justify;
+	font-style: normal;
+	font-size: 18px;
+	font-family: 'Quicksand', Arial, Verdana, sans-serif;
+	
+}
+
+/* Slideshow container */
+#myCarousel {
+  max-height: 200px;
+  max-width:170px;
+  position: relative;
+  margin: 50px auto 0 auto;
+}
+
+.carousel-inner > .item >img{
+  width : 100%;
+}
+
+/*Footer, boxed*/
+footer #copyright {
+	text-align: center;
+	font-style: normal;
+	font-weight: 100;
+	font-family: josefin-sans, sans-serif;
+}
+
+#Banner a {
+	display:block;
+    width: 170px;
+    margin: 150px auto 0 410px;
+}
+
+#footer-frame {
+	width: 960px;
+	height: 400px; 
+	margin: 0 auto 0 auto;
+	background: url(images/Ribbonbottom.png) no-repeat center bottom;
+	overflow: hidden;
+}
